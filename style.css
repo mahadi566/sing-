@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #f1f3f4;
+}
+h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#headed{
+    background: url(images/23.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 1;
+    color: #000;
+    text-align: center;
+}
+.header a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    padding: 13px 33px;
+    border-left: 1px solid #080606cc;
+    border-right: 1.5px solid #080606cc;
+    border-top: 1px solid #080606cc;
+    border-bottom: 1px solid #080606cc;
+    display: inline-block;
+    border-radius: 7px;
+
+}
+
+.music_box{
+    padding: 20px 0;
+}
+.music_box audio{
+    width: 100%;
+    outline: none;
+}
+
+.link_box{
+    display: block;
+    padding: 35px 0;
+    text-align: center;
+}
+.link_box p{
+    font-size: 17.5px;
+    display: inline-block;
+    color: #222;
+}
+.link_box a{
+    color: teal;
+    font-family: serif;
+    font-size: 17px;
+    display: inline-block;
+}
+.divlink{
+    display: inline-block;
+}
+.next{
+    float: right;
+}
+#copyright{
+    background-color: #333333;
+}
+#copyright p{
+    font-size: 16px;
+    color: #fff;
+    padding-top:13px;
+}
+
+
+@media only screen and (max-width:447px){
+	h1{
+       font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .header a{
+        padding: 6px 27px;
+    }
+    .link_box p, .link_box a{
+        display: block;
+    }
+    .next{
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+}
+
+.text_box h2{
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.text_box p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+
+
